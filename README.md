@@ -119,15 +119,17 @@ This model **substantially outperformed** any single-omics model.
 | **Meta-Model (RNA + Methylation)** | **0.92** | **0.91** | **0.94** |
 
 **Conclusion:**  
-Integrating multi-omics features delivers **state-of-the-art performance**, achieving an **F1-score of 0.91** and **AUC of 0.94** — demonstrating the effectiveness of **data fusion** in endometriosis biomarker prediction.
+
+Integrating multi-omics features delivers **state-of-the-art performance**, achieving an **F1-score of 0.91** and **AUC of 0.94**, demonstrating the effectiveness of **data fusion** in endometriosis biomarker prediction.
 
 ---
 
 📊 *Overall Insight:*  
+
 Multi-omics integration and ensemble learning dramatically improve classification accuracy and robustness, validating this approach for complex biological datasets.
 
+**Highlighted features:** 
 
-**Highlighted features:**  
 - *IGF2* (RNA downregulated, literature-supported biomarker)  
 - *CDCA2* (hypermethylated region)  
 - *IGFBP3* (methylation linked to lesion development)  
