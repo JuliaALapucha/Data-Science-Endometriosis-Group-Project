@@ -1,10 +1,10 @@
-# 🧬 Endo-ML: Machine Learning for Endometriosis Biomarker Discovery
+# Endo-ML: Machine Learning for Endometriosis Biomarker Discovery
 
 A multimodal bioinformatics and machine learning project for identifying biomarkers and predicting endometriosis status using RNA-Seq and DNA methylation data.
 
 ---
 
-## 🚀 Overview & Motivation
+## Overview & Motivation
 
 Endometriosis is an under-researched gynecological disorder affecting an estimated 5–10 % of women.  
 Current diagnostics are invasive and often delayed.  
@@ -24,7 +24,7 @@ This project demonstrates **omics data processing, differential analysis, functi
 
 ---
 
-## 🧠 Workflow Summary
+##  Workflow Summary
 
 1. **RNA-Seq analysis (DESeq2)**  
    - Filtering low-count genes, normalization (median of ratios), log2 fold-change shrinkage (apeglm)  
@@ -53,7 +53,7 @@ This project demonstrates **omics data processing, differential analysis, functi
 
 
 ---
-## 🧰 Tech Stack
+##  Tech Stack
 
 
 | Category | Tools & Libraries |
@@ -69,7 +69,7 @@ This project demonstrates **omics data processing, differential analysis, functi
 
 ---
 
-## 📁 Repository Content
+##  Repository Content
 
 Diff_Analysis_mbdseq.R        → MBD-seq differential methylation analysis  
 GoTermEnrichment.Rmd          → GO enrichment pipeline  
@@ -83,14 +83,14 @@ ReadMe.docx.pdf               → Documentation
 README.md                     → Project overview (this file)
 
 
-## 📈 Model Performance & Results
+##  Model Performance & Results
 
 The objective of this project was to build a **high-performance machine learning classifier** capable of predicting endometriosis status using integrated **multi-omics data** (RNA-Seq + Methylation).  
 The results clearly show that **ensemble learning** and **meta-model integration** significantly outperform baseline models trained on individual data types.
 
 ---
 
-### 🔹 1. Ensemble Learning vs. Baseline Models
+###  1. Ensemble Learning vs. Baseline Models
 
 A **Stacked Classifier** was developed by combining Logistic Regression, Decision Tree, and SVM base learners.  
 It achieved the **highest and most balanced performance** across all metrics.
@@ -107,7 +107,7 @@ The ensemble approach boosts predictive performance and improves stability, incr
 
 ---
 
-### 🔹 2. Multi-Omics Meta-Model Integration
+###  2. Multi-Omics Meta-Model Integration
 
 To further enhance prediction, a **Meta-Model** was trained by combining features derived from both **RNA expression** and **DNA methylation** datasets.  
 This model **substantially outperformed** any single-omics model.
@@ -124,7 +124,7 @@ Integrating multi-omics features delivers **state-of-the-art performance**, achi
 
 ---
 
-📊 *Overall Insight:*  
+ *Overall Insight:*  
 
 Multi-omics integration and ensemble learning dramatically improve classification accuracy and robustness, validating this approach for complex biological datasets.
 
@@ -137,7 +137,7 @@ Multi-omics integration and ensemble learning dramatically improve classificatio
 
 ---
 
-## 🔬 Limitations & Future Work
+##  Limitations & Future Work
 
 - Small overlapping sample size between RNA and MBD datasets  
 - Limited external validation due to data availability  
@@ -150,7 +150,7 @@ Multi-omics integration and ensemble learning dramatically improve classificatio
 
 ---
 
-## ⚙️ Usage
+##  Usage
 
 ```bash
 # Clone repository
@@ -160,7 +160,7 @@ cd endo_ml
 
 ---
 
-## 📄 License & Citation
+##  License & Citation
 
 This project is released under the **MIT License** — see the [LICENSE](https://github.com/astriksar/endo_ml/blob/main/LICENSE) file for details.  
 You are welcome to use, modify, and build upon this code for academic or research purposes.
